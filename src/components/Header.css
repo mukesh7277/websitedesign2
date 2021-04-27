@@ -1,0 +1,26 @@
+.headercontainer{
+ display:flex;
+ flex:1;
+ justify-content:space-between;
+ align-items: center;
+ padding-left: 20px;
+ height:80px;
+ z-index: 100;
+ position:fixed;
+ width:95%;
+}
+.contenttype:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(180, 13, 41);
+    font-weight: 800;
+}
+.contenttype{
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+}
+.options{
+    display: flex;
+}

@@ -1,0 +1,20 @@
+.maincontainer{
+    position:relative;
+    top:95vh;
+}
+.text{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text2{
+    display:flex;
+    align-items:center;
+    color:red;
+    cursor: pointer;
+}
+.text2:hover{
+ font-weight: bold;
+}
